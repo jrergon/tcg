@@ -1,0 +1,27 @@
+{
+  "name": "card-trading",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "tsc": "tsc",
+    "test": "mocha --require ts-node/register test/**/*.ts",
+    "lint": "tslint -c tslint.json 'src/**/*.ts'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/readline-sync": "^1.4.3",
+    "readline-sync": "^1.4.9"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.6",
+    "chai": "^4.2.0",
+    "eslint-config-google": "^0.12.0",
+    "mocha": "^6.0.2",
+    "ts-node": "^8.0.3",
+    "tslint": "^5.14.0",
+    "typescript": "^3.3.3333"
+  }
+}
