@@ -1,7 +1,7 @@
 # TCG
 
 ## How To Install
-    $ npm install hqb
+    $ npm install
     $ npm run tsc
     $ node build/app.js
 
